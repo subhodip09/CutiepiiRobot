@@ -224,7 +224,7 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Cutie Cutie! fetching user info. . .</code>", parse_mode=ParseMode.HTML)
+        "<code>wait Man I'm now ! fetching user info. . .</code>", parse_mode=ParseMode.HTML)
 
     text = (f"╒═══「<b> Appraisal results:</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
@@ -290,7 +290,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/Techno_Ocean/35">?</a>]'.format(
+        text += ' [<a href="https://t.me/chat_bomber">?</a>]'.format(
             bot.username)
 
     try:
