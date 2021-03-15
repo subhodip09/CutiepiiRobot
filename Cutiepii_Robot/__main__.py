@@ -51,17 +51,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Welcome user: {}, , I am cutest bot: Cutiepii! 
+Welcome user: {}, , I am ＮＩＣＫＹ! 
 
 I am an Anime themed advance group management bot with a lot of Special Features.
 
-You can also make my sister. [Cutiepii Repo](https://github.com/Rajkumar-27/CutiepiiRobot)
 
-Use /help to know my abilities [^_^](https://telegra.ph/file/d31755c8e0245be16c4f5.png).
+Use /help to know my abilities [^_^](https://telegra.ph/file/0055e1c9656a65fbd7c92.jpg).
 """
 
 HELP_STRINGS = """
-[Cutie](https://telegra.ph/file/d0441d0d700f54b55c9a1.mp4) at your service.
+[Cutie](https://telegra.ph/file/aac8f2c0de4163d3792bf.mp4) at your service.
 I can help you with following functions in managing group.
 
 *Main* commands available:
@@ -204,22 +203,22 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Cutiepii to your group",
+                            text="Add ＮＩＣＫＹ to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [                         
                        InlineKeyboardButton(
-                             text="Chat With Cutie Lovers",
-                             url="https://t.me/Hindi_K_Drama_1")
+                             text="Chat With ＮＩＣＫＹ Lovers",
+                             url="https://t.me/@chat_bomber")
                     ],
                      [
                          InlineKeyboardButton(
                              text="Support Chat",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             url=f"https://t.me/chat_bomber{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="Updates Channel",
-                             url="https://t.me/Techno_Ocean")
+                             url="https://t.me/chat_bomber")
                   
                      ]]))
     else:
