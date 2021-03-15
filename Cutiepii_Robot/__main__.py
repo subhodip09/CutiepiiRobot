@@ -55,12 +55,11 @@ Welcome user: {}, , I am ＮＩＣＫＹ!
 
 I am an Anime themed advance group management bot with a lot of Special Features.
 
-
 Use /help to know my abilities [^_^](https://telegra.ph/file/0055e1c9656a65fbd7c92.jpg).
 """
 
 HELP_STRINGS = """
-[Cutie](https://telegra.ph/file/aac8f2c0de4163d3792bf.mp4) at your service.
+[ＮＩＣＫＹ](https://telegra.ph/file/aac8f2c0de4163d3792bf.mp4) at your service.
 I can help you with following functions in managing group.
 
 *Main* commands available:
@@ -78,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG= "https://telegra.ph/file/d31755c8e0245be16c4f5.png"
+SAITAMA_IMG= "https://telegra.ph/file/0055e1c9656a65fbd7c92.jpg"
 CUTIEPINGIMG = "https://telegra.ph/file/ea42efe4fb0ccbb578fce.gif"
 
 
